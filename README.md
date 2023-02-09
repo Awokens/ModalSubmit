@@ -1,2 +1,10 @@
-# ModalSubmit
- A structure for modal submits using the discord.js library
+# Example
+```typescript
+export default new ModalSubmit({
+    customId: 'report';
+    description: 'A report form submission';
+    run: async ({ interaction }) => {
+        // do stuff
+    }
+});
+```
